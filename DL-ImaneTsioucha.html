@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ImaneTsiouchaSite</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+    	var offset = 300, 
+  offsetOpacity = 1200, 
+  scrollDuration = 700;
+    </script>
+
+
+
+</head>
+<body>
+
+<div class="menu">
+	<ul>
+		<li class="li1"><a href="#id1"> Infos</a></li>
+		<li class="li2"><a href="#id2">Formation Professionnel</a></li>
+		<li class="li3"><a href="#id3">Experience Professionnel</a></li>
+		<li class="li4"><a href="#id4">Compétence</a></li>
+		<li class="li5"><a href="#id5">Loisirs</a></li>
+		<li class="li6"><a href="#id6">Langues</a></li>
+		<li class="li7"><a href="#id7">Goals</a></li>
+	</ul>
+	<br>
+	<h3 id="annimation"></h3>
+	<script type="text/javascript">
+		var i=0;
+    var annimation;
+    annimation="Imane Tsioucha 이마 네";
+
+    function typing(){
+
+    if(i<annimation.length){
+      document.getElementById("annimation").innerHTML+=annimation.charAt(i);
+      i++;
+      setTimeout(typing,80);
+    }else {
+      setTimeout(supprimer,80);
+    }
+
+    }
+    typing();
+
+    function supprimer(){
+      if(i>=0){
+        var temp=annimation.substring(0,i);
+        document.getElementById('annimation').innerHTML=temp;
+        i--;
+        console.log(i);
+        setTimeout(supprimer,80);
+      }else {
+         setTimeout(typing,80);
+      }
+    }
+	</script>
+</div>
+<div class="image1">
+	<img src="Capture.png">
+</div>
+<br><br><br><br><br><br>
+<div class="welcome" >
+	<h1>Welcome</h1>
+	
+	<p>Dans la vie de  l’être humain,<br> il ne peut pas vivre sans objectifs qui seront par la suite son espoir dans la vie ,<br> parmi mes objectifs est de vivre ma vie avec énergie et espoir,<br> aider l’humanité avec ma connaissance et mon savoir faire .<br>
+</p>
+<h3> I will do my best 열심히 해보겠습니다</h3>
+</div>
+<br><br><br><br><br><br>
+<div class="infos" id="id1">
+	<h1 >info</h1>
+	<h2 id="info"></h2>
+		<script type="text/javascript">
+		var j=0;
+    var info;
+    info="Salut,C'est Imane";
+
+    function typing1(){
+
+    if(j<info.length){
+      document.getElementById("info").innerHTML+=info.charAt(j);
+      j++;
+      setTimeout(typing1,80);
+    }else {
+      setTimeout(supprimer1,80);
+    }
+
+    }
+    typing1();
+
+    function supprimer1(){
+      if(j>=0){
+        var temp1=info.substring(0,j);
+        document.getElementById('info').innerHTML=temp1;
+        j--;
+        console.log(j);
+        setTimeout(supprimer1,80);
+      }else {
+         setTimeout(typing1,80);
+      }
+    }
+	</script>
+	<img src="imane.png">
+	<p>Je suis etudiante ingenieur et technicienne spécialisé en Informatique aprés avoir mon DUT en Informatique.<br>
+		Je suis passionné de faire des aventures, des voyages et puisque ça apprendre des nouvelles choses chaque jour.
+	 </p><br>
+	 <p>Mes citations dans la vie sont <h3>"Nous tombons, nous cassons, nous échouons  MAIS alors nous nous élevons, nous guérissons, nous surmontons"<br><br>"Beaucoup de gens réalisent leurs désirs de cœur tard dans la vie. Continuez à apprendre, n'arrêtez jamais de vous efforcer et gardez votre curiosité vive, et vous ne deviendrez jamais trop vieux pour apprécier la vie."</h3></p>
+	 <p>Je suis né et  grandi dans une belle ville Treviso, en Italie, étant élevé dans une merveilleuse famille.</p>
+</div>
+<br><br><br><br><br><br>
+<div class="formation" id="id2">
+	<h1>Formation Professionnel</h1>
+	<img src="images.jpg">
+	<table>
+		<tr><td class="td1">2015-2016</td><td><b> Baccalauréat Technique option sciences et technologies électrique</b><br>.Lycée  Al Khawarizmi à Safi<br>(Mention : Bien).</td></tr>
+		<tr><td class="td1">2017-2019</td><td><b>DUT Génie Informatique</b><br>École Supérieur de Technologie à Safî</td>
+		<tr><td class="td1">2019-2020</td><td><b>3eme année Genie Informatique </b><br> ENSA Safi</td></tr>
+	</table>
+</div>
+<br><br><br><br><br><br><br><br>
+
+<div class="experience" id="id3">
+		<h1>Experiences Professionnelles</h1>
+		<img src="exp.jpg">
+		<table>
+			<tr><td class="td1">2017-2018 </td><td><b>STAGIAIRE|HÔPITAL MOHAMMED 5 SAFI</b><br>Un stage supplémentaire au sein de l’hôpital comme une formation sur les serveurs, bases de donnée de l’hôpital et le travail sous une application de gestion de l'hôpital.</td></tr>
+			<tr><td class="td1">2017-2018 </td><td><b>STAGIAIRE| PROVINCE DE SAFI</b><br>La conception et réalisation d’une application bureautique sous windows de gestion des stagiaires en VB.net et SQL server .</td></tr>
+			<tr><td class="td1">2017-2018 </td><td><b>STAGIAIRE| RADEES</b><br>La conception et réalisation d’un site web dynamique pour la RADEES</td></tr>
+			<tr><td class="td1">2018-2019 </td><td><b>STAGIAIRE| OCP à Safi</b><br>
+               <br>  -La conception et réalisation d’une application Android de gestion des incidents.
+<br>-Implementation d'un antivirus serveur KASPERSKI.
+<br>-Formation Industrielle sur la production de l'électricité dans une centrale thermique .
+<br>-Formation sur les altérnateur et les turbines.
+			</td></tr>
+		</table>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="competence" id="id4">
+	<h1>Competence</h1>
+<table>
+	<tr><td>HTML,CSS,Bootstrap</td><td class="td1">75%<img src="L2.png"></td><td>JavaScript,PHP</td><td class="td1">75%<img src="L2.png"></td><td>SQL,SQL3, MySql</td><td class="td1">95%<img src="L1.png"></td></tr>
+	<tr><td >C++,Langage C</td><td class="td1">75%<img src="L2.png"></td><td>JAVA</td><td class="td1">95%<img src="L1.png"></td><td>VB.net</td><td class="td1">75%<img src="L2.png"></td></tr>
+	<tr><td>Réseaux informatiques</td><td class="td1">95%<img src="L1.png"></td><td >Administration réseau(LINUX,WINDOWS)</td><td class="td1">95%<img src="L1.png"></td><td>Systèmes embarqués</td><td class="td1">25%<img src="L3.png"></td></tr>
+	<tr><td>Développement Android</td><td class="td1">75%<img src="L2.png"></td><td>UML</td><td class="td1">75%<img src="L2.png"></td><td>Merise</td><td class="td1">75%<img src="L2.png"></td></tr>
+	<tr><td>Bureautique</td><td class="td1">95%<img src="L1.png"></td><td>Latex</td><td class="td1">95%<img src="L1.png"></td><td>Photoshop</td><td class="td1">25%<img src="L3.png"></td></tr>
+</table>
+	
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="loisirs" id="id5">
+	<h1>Loisirs</h1>
+	<table>
+		<tr><td>Natation</td><td class="td1">95%<img src="L1.png"></td><td >Pétanque</td><td class="td1">75%<img src="L2.png"></td></tr>
+		<tr><td>Littérature Anglaise</td><td class="td1">75%<img src="L2.png"></td><td>Bricoleuse du dimanche</td><td class="td1">75%<img src="L2.png"></td></tr>
+		<tr><td>DJ a des évenement</td><td class="td1">95%<img src="L1.png"></td><td>Production de la musique</td><td class="td1">75%<img src="L2.png"></td></tr>
+	</table>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="langues" id="id6">
+	<h1>Langues</h1>
+	<img class="img2" src="ln.png">
+	<table>
+		<tr><td>Arabe </td><td class="td1">95%<img src="L1.png"></td></tr>
+		<tr><td>Français </td><td class="td1">75%<img src="L2.png"></td></tr>
+		<tr><td>Anglais </td><td class="td1">95%<img src="L1.png"></td></tr>
+		<tr><td>Italien</td><td class="td1">75%<img src="L2.png"></td></tr>
+		<tr><td>Coréen </td><td class="td1">25%<img src="L3.png"></td></tr>
+	</table>
+	
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="quotes">
+	<h1>Quotes</h1>
+	<table>
+		<tr>
+			<td><img src="Q1.jpg"></td>
+			<td><img src="Q2.jpg"></td>
+			<td><img src="Q3.jpg"></td>
+			<td><img src="Q4.jpg"></td>
+			<td><img src="Q5.png"></td>
+		</tr>
+	</table>
+	
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="goals" id="id7">
+	<h1>Goals</h1>
+		<table>
+		<tr>
+			<td><img src="G1.jpg"></td>
+			<td><img src="G2.jpg"></td>
+			<td><img src="G3.jpg"></td>
+			<td><img src="G4.jpg"></td>
+			<td><img src="G5.jpg"></td>
+		</tr>
+		<tr>
+			<td>Savoir plus sur le DJ et la production</td>
+			<td>Voyager a la Corée du Sud</td>
+			<td>Apprendre la guitare électrique</td>
+			<td>Apprendre en profondeur la programmation</td>
+			<td>Apprendre de nouvelles langues comme le japonais, chinois et le deutsh</td>
+		</tr>
+	</table>
+
+</div>
+<body> 
+	<div class="retour">
+  <a href="#" class="cd-top text-replace js-cd-top">Top</a>
+  </div>
+</body>
+</body>
+</html>
